@@ -1,4 +1,5 @@
 package Exp1_Euclidian;
+
 import java.util.Scanner;
 
 public class menu {
@@ -13,8 +14,9 @@ public class menu {
             System.out.println(q + "\t" + r1 + "\t" + r2 + "\t" + r);
             r1 = r2;
             r2 = r;
-        
-        System.out.println("GCD = " + r1);
+
+            System.out.println("GCD = " + r1);
+        }
     }
 
     // B) Extended Euclidean Algorithm (Tabular Method)

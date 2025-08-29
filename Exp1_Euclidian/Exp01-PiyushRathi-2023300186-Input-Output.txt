@@ -1,0 +1,120 @@
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security\Exp1_Euclidian> javac menu.java
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security\Exp1_Euclidian> java Exp1_Euclidian.menu
+Error: Could not find or load main class Exp1_Euclidian.menu
+Caused by: java.lang.ClassNotFoundException: Exp1_Euclidian.menu
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security\Exp1_Euclidian> java .\menu.class
+Error: Could not find or load main class .\menu.class
+Caused by: java.lang.ClassNotFoundException: /\menu/class
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security\Exp1_Euclidian> java menu
+Error: Could not find or load main class menu
+Caused by: java.lang.NoClassDefFoundError: Exp1_Euclidian/menu (wrong name: menu)
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security\Exp1_Euclidian> cd ...
+cd : An object at the specified path C:\Users\Piyush\Documents\College\Cryptography and Network
+Security\Exp1_Euclidian\... does not exist.
+At line:1 char:1
++ cd ...
++ ~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], PSArgumentException
+    + FullyQualifiedErrorId : Argument,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security\Exp1_Euclidian> cd ..
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security> java Exp1_Euclidian.menu
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 1
+Enter first number (a): 8
+Enter second number (b): 12
+q       r1      r2      r
+0       8       12      8
+GCD = 12
+1       12      8       4
+GCD = 8
+2       8       4       0
+GCD = 4
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 120
+Enter first number (a): 340
+Enter second number (b): 400
+Invalid choice!
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 2
+Enter first number (a): 340
+Enter second number (b): 420
+q       r1      r2      r       s1      s2      s       t1      t2      t
+0       340     420     340     1       0       1       0       1       0
+1       420     340     80      0       1       -1      1       0       1
+4       340     80      20      1       -1      5       0       1       -4
+4       80      20      0       -1      5       -21     1       -4      17
+GCD = 20, s = 5, t = -4
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 3
+Enter first number (a): 120
+Enter second number (b): 325
+q       r1      r2      r       t1      t2      t
+0       120     325     120     0       1       0
+2       325     120     85      1       0       1
+1       120     85      35      0       1       -1
+2       85      35      15      1       -1      3
+2       35      15      5       -1      3       -7
+3       15      5       0       3       -7      24
+GCD = 5
+No Multiplicative Inverse exists (since GCD â?  1)
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 3
+Enter first number (a): 20
+Enter second number (b): 40
+q       r1      r2      r       t1      t2      t
+0       20      40      20      0       1       0
+2       40      20      0       1       0       1
+GCD = 20
+No Multiplicative Inverse exists (since GCD â?  1)
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 3
+Enter first number (a): 20
+Enter second number (b): 23
+q       r1      r2      r       t1      t2      t
+0       20      23      20      0       1       0
+1       23      20      3       1       0       1
+6       20      3       2       0       1       -6
+1       3       2       1       1       -6      7
+2       2       1       0       -6      7       -20
+GCD = 1
+Multiplicative Inverse of 20 mod 23 = 7
+
+--- Menu ---
+1. Basic Euclidean Algorithm (GCD)
+2. Extended Euclidean Algorithm (GCD, s, t)
+3. Multiplicative Inverse
+4. Quit
+Enter choice: 4
+Exiting program...
+PS C:\Users\Piyush\Documents\College\Cryptography and Network Security>
