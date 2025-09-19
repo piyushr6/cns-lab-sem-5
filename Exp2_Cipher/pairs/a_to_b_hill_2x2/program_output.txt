@@ -1,0 +1,3 @@
+Total matrices considered (26^4): 456976
+Best score (lower is better): 7
+Best key (numeric & letters): [4 23;25 25] (letters: EXZZ)

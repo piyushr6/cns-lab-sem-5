@@ -1,0 +1,3 @@
+Tried total matrices: 456976
+Note: skipped non-invertible matrices (gcd(det,26)!=1)
+Invertible matrices tried logged in program_output.txt (progress updates)

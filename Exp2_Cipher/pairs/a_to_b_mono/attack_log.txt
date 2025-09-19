@@ -1,0 +1,5 @@
+Hill-climb substitution attack
+Iterations=40000 seed=12345
+Initialization: frequency-based mapping
+Acceptance: greedy (only accept swaps that improve score)
+Score metric: EnglishScorer (lower is better)

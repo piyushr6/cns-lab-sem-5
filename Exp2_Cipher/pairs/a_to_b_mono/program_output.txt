@@ -1,0 +1,29 @@
+Final bestScore=8
+(see appended logs above if any)
+Final mapping:
+A->H
+B->R
+C->D
+D->A
+E->O
+F->L
+G->C
+H->I
+I->U
+J->M
+K->W
+L->E
+M->F
+N->G
+O->T
+P->Y
+Q->P
+R->N
+S->B
+T->V
+U->K
+V->J
+W->S
+X->X
+Y->Q
+Z->Z

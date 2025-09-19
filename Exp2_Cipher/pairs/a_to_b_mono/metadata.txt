@@ -1,0 +1,3 @@
+Cipher: Monoalphabetic (substitution)
+Sender: memberA
+Receiver: memberB

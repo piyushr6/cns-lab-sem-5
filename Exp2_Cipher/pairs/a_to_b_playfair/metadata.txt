@@ -1,0 +1,3 @@
+Cipher: Playfair (keyword list attack)
+Sender: memberA
+Receiver: memberB

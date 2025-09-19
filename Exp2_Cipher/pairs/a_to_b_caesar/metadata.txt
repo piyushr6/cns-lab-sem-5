@@ -1,0 +1,3 @@
+Cipher: Caesar
+Sender: memberA
+Receiver: memberB

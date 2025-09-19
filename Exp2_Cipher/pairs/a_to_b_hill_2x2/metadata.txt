@@ -1,0 +1,3 @@
+Cipher: Hill (2x2 brute force)
+Sender: memberA
+Receiver: memberB
